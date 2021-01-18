@@ -11,13 +11,13 @@
 
 
 //Punto 2
-var studenti = [{
-  'nome1': 'Giuliano Sarri',
-  'nome2': 'Emilio Fede',
-}]
-for (var key in studenti){
-  alert(studenti[key])
-  console.log(studenti[key])
+var studenti = [
+  {'nome': 'Giuliano Sarri'},
+  {'nome': 'Giuliano Sarri'},
+]
+for (var i=0; i<studenti.length; i++){
+  var studente = studenti[i];
+  alert(studente.nome);
 }
 
 
